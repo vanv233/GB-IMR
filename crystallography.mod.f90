@@ -5,7 +5,7 @@ use Math_Library
 contains
 
 
-
+!find the orientation periodicity of [u v w]
 subroutine find_orientation_periodicity(lattice_type,lattice_constant,u,v,w,n,periodicity)
 character(len=3) :: lattice_type
 real(kind=8) :: lattice_constant
@@ -50,6 +50,7 @@ n_odd_indices = mod(abs(u1),2) + mod(abs(v1),2) + mod(abs(w1),2)
     
 end subroutine find_orientation_periodicity
 
+!find the orientation periodicity of orientation pair [u1 v1 w1] and [u2 v2 w2]
 subroutine find_orientation_pair_periodicity(lattice_type,lattice_constant,u1,v1,w1,n1,u2,v2,w2,n2,periodicity)
 character(len=3) :: lattice_type
 real(kind=8) :: lattice_constant
@@ -70,7 +71,7 @@ call find_orientation_periodicity(lattice_type,lattice_constant,u2,v2,w2,n2,peri
 end subroutine find_orientation_pair_periodicity
 
 
-
+!find the plane distance of (h k l)
 subroutine find_plane_distance(lattice_type,lattice_constant,h,k,l,m,distance)
 character(len=3) :: lattice_type
 real(kind=8) :: lattice_constant
@@ -130,6 +131,8 @@ call reduce_vector(h1,k1,l1,common_factor)
     
 end subroutine find_plane_distance
 
+
+!find the plane distance of plane pair (h1 k1 l1) and (h2 k2 l2)
 subroutine find_plane_pair_distance(lattice_type,lattice_constant,h1,k1,l1,m1,h2,k2,l2,m2,distance)
 character(len=3) :: lattice_type
 real(kind=8) :: lattice_constant
