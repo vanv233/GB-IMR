@@ -2,7 +2,7 @@ module Utility
 
 contains
 
-
+!return greatest common divisor of a & b
 function gcd2(a, b)
     integer(kind=8) :: gcd2
     integer(kind=8) :: a, b
@@ -18,13 +18,14 @@ function gcd2(a, b)
     gcd2 = x
 end function gcd2
 
+!return greatest common divisor of a & b & c
 function gcd3(a, b, c)
     integer(kind=8) :: gcd3
     integer(kind=8) :: a, b, c
     gcd3 = gcd2(gcd2(a,b),c)
 end function gcd3
 
-
+!prepare the 2D integer list for linear combination trials 
 subroutine find_unique_ratios(search_range,ratios,n_ratio)
     integer(kind=8) :: search_range,n_ratio
     integer(kind=8),allocatable,dimension(:,:) :: ratios
@@ -72,6 +73,7 @@ subroutine find_unique_ratios(search_range,ratios,n_ratio)
 
 end subroutine find_unique_ratios
 
+!prepare the 3D integer list for linear combination trials 
 subroutine find_unique_combinations(search_range,combinations,n_combination)
     integer(kind=8) :: search_range,n_combination
     integer(kind=8),allocatable,dimension(:,:) :: combinations!4*search_range*search_range*search_range+4*1
@@ -143,7 +145,7 @@ end subroutine find_unique_combinations
 
 
 
-
+!maintain a list of the unique candidate orientation pairs with the minimal periodicity
 subroutine construct_orientation_list(n_list,list_size,property_size,vector_list,property_list,vector_input,property_input,&
                                       sort_property1_index,sort_property2_index)
 
