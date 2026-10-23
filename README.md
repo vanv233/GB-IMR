@@ -3,10 +3,15 @@ A Fortran module code to calculate the irreducible macroscopic representation of
 
 Please integrate the module to your own codes! Brief introductions are given in the notes of each module file. 
 
-An example of the program entry to use these modules is given here.
+An example of the program entry to use these modules is given here, and the module dependencies are given in the module files.
 
 !!!!!!!!!!!!
 Program main
+
+use math_library
+use utility
+use crystallography
+use supercell
 
 !define variables
 
