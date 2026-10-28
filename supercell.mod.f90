@@ -11,7 +11,7 @@ contains
 !input:
 !P_x1,P_x2,P_x3,P_y1,P_y2,P_y3,P_z1,P_z2,P_z3 (#grain transformation matrix)
 !Q_x1,Q_x2,Q_x3,Q_y1,Q_y2,Q_y3,Q_z1,Q_z2,Q_z3,(#grain transformation matrix)
-!vector_search_range,n_vector_ratio,vector_ratios (#integer pairs of unique ratios for search)
+!n_vector_ratio,vector_ratios (#integer pairs of unique ratios for search)
 !lattice_type,lattice_constant,sigma
 !n_supercell_orientation (#number of in-boundary-plane lattice orientations with the minimal orientation lengths)
 !n_supercell_solution (#number of output supercells)
@@ -24,7 +24,7 @@ contains
 !"Q"/"q" quick computation, skip some unnecessary steps
 subroutine resolve_bicrystal_supercells(P_x1,P_x2,P_x3,P_y1,P_y2,P_y3,P_z1,P_z2,P_z3,&
                                         Q_x1,Q_x2,Q_x3,Q_y1,Q_y2,Q_y3,Q_z1,Q_z2,Q_z3,&
-                                        vector_search_range,n_vector_ratio,vector_ratios,&
+                                        n_vector_ratio,vector_ratios,&
                                         lattice_type,lattice_constant,sigma,n_supercell_orientation,&
                                         n_supercell_solution,supercell_solution_list,supercell_parameter_list,&
                                         instruction)
@@ -33,7 +33,6 @@ subroutine resolve_bicrystal_supercells(P_x1,P_x2,P_x3,P_y1,P_y2,P_y3,P_z1,P_z2,
 integer(kind=8) :: P_x1,P_x2,P_x3,P_y1,P_y2,P_y3,P_z1,P_z2,P_z3
 integer(kind=8) :: Q_x1,Q_x2,Q_x3,Q_y1,Q_y2,Q_y3,Q_z1,Q_z2,Q_z3
 !input, for search propose
-integer(kind=8) :: vector_search_range
 integer(kind=8) :: n_vector_ratio
 integer(kind=8),dimension(n_vector_ratio,2)::vector_ratios
 !input, material parameters
