@@ -1,0 +1,9 @@
+Installation instruction for Windows OS
+1. download Simply Fortran
+2. put all files into one directory
+2. open main.f90
+3. click Build Project
+4. click Launch Project
+5. see the screen output
+
+Ask Chatgpt if you are using another OS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
