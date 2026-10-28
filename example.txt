@@ -1,0 +1,13 @@
+How to use the code
+1. open main.prj
+2. click main.f90
+
+3. Set inputs (see the notes, read the paper and ask Chatgpt if you don't know the meaning of each input)
+3.1. set grain boundary parameters 
+3.2. set vector_search_range
+3.3. set n_supercell_orientation
+3.4. set n_supercell_solution
+
+4. click Build Project
+5. click Launch Project
+6. see the screen output (see the notes, read the paper and ask Chatgpt if you don't know the meaning of the output info)

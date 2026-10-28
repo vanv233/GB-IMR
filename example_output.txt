@@ -1,0 +1,61 @@
+Find      24463 +2 irreducible ratios
+Total size is      48930
+  
+[N] Find      4 candidate orientation pairs ...
+   1-th candidate orientation pair
+Pw/Pv        0        1        0 reduction factor  1 Qw/Qv        0        1        0 reduction factor  1
+periodicity/lattice_constant       1.00 angle to Px      90.00 combination i & j       0.00       1.00
+   2-th candidate orientation pair
+Pw/Pv        3        0        1 reduction factor  2 Qw/Qv        3        0       -1 reduction factor  2
+periodicity/lattice_constant       1.58 angle to Px       0.00 combination i & j       1.00       0.00
+   3-th candidate orientation pair
+Pw/Pv        3        2        1 reduction factor  2 Qw/Qv        3        2       -1 reduction factor  2
+periodicity/lattice_constant       1.87 angle to Px      32.31 combination i & j       1.00       2.00
+   4-th candidate orientation pair
+Pw/Pv       -3        2       -1 reduction factor  2 Qw/Qv       -3        2        1 reduction factor  2
+periodicity/lattice_constant       1.87 angle to Px     147.69 combination i & j      -1.00       2.00
+  
+[N] Assembling and evaluating irreducible supercells now
+  
+[N] Find      6 supercell solutions, and recommend the     -1-th
+  
+  -3-th supercell solution (fixed y orientation)
+Pw        0        1        0 reduction factor  1 Qw        0        1        0 reduction factor  1 periodicity/lattice_constant     1.00
+Pv       -3        2       -1 reduction factor  2 Qv       -3        2        1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle  90.00 xv_angle 147.69 wv_angle  57.69 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+  -2-th supercell solution (fixed x orientation)
+Pw        3        0        1 reduction factor  2 Qw        3        0       -1 reduction factor  2 periodicity/lattice_constant     1.58
+Pv        3        2        1 reduction factor  2 Qv        3        2       -1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle   0.00 xv_angle  32.31 wv_angle  32.31 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+  -1-th supercell solution (orthogonal)
+Pw        3        0        1 reduction factor  2 Qw        3        0       -1 reduction factor  2 periodicity/lattice_constant     1.58
+Pv        0       -1        0 reduction factor  1 Qv        0       -1        0 reduction factor  1 periodicity/lattice_constant     1.00
+xw_angle   0.00 xv_angle  90.00 wv_angle  90.00 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+[N] Recommended supercell solution
+Pw        3        0        1 reduction factor  2 Qw        3        0       -1 reduction factor  2 periodicity/lattice_constant     1.58
+Pv        0       -1        0 reduction factor  1 Qv        0       -1        0 reduction factor  1 periodicity/lattice_constant     1.00
+xw_angle   0.00 xv_angle  90.00 wv_angle  90.00 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+   1-th supercell solution (irreducible)
+Pw        3        0        1 reduction factor  2 Qw        3        0       -1 reduction factor  2 periodicity/lattice_constant     1.58
+Pv        3        2        1 reduction factor  2 Qv        3        2       -1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle   0.00 xv_angle  32.31 wv_angle  32.31 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+   2-th supercell solution (irreducible)
+Pw        3        0        1 reduction factor  2 Qw        3        0       -1 reduction factor  2 periodicity/lattice_constant     1.58
+Pv       -3        2       -1 reduction factor  2 Qv       -3        2        1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle   0.00 xv_angle 147.69 wv_angle 147.69 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+   3-th supercell solution (irreducible)
+Pw        0        1        0 reduction factor  1 Qw        0        1        0 reduction factor  1 periodicity/lattice_constant     1.00
+Pv       -3        2       -1 reduction factor  2 Qv       -3        2        1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle  90.00 xv_angle 147.69 wv_angle  57.69 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+   4-th supercell solution (irreducible)
+Pw        0        1        0 reduction factor  1 Qw        0        1        0 reduction factor  1 periodicity/lattice_constant     1.00
+Pv       -3        0       -1 reduction factor  2 Qv       -3        0        1 reduction factor  2 periodicity/lattice_constant     1.58
+xw_angle  90.00 xv_angle 180.00 wv_angle  90.00 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+   5-th supercell solution (irreducible)
+Pw        0        1        0 reduction factor  1 Qw        0        1        0 reduction factor  1 periodicity/lattice_constant     1.00
+Pv       -3       -2       -1 reduction factor  2 Qv       -3       -2        1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle  90.00 xv_angle 212.31 wv_angle 122.31 GB_size/miGB_size/siGB_size    25.93     1.58   0.3162
+   6-th supercell solution (irreducible)
+Pw        3        2        1 reduction factor  2 Qw        3        2       -1 reduction factor  2 periodicity/lattice_constant     1.87
+Pv       -3        2       -1 reduction factor  2 Qv       -3        2        1 reduction factor  2 periodicity/lattice_constant     1.87
+xw_angle  32.31 xv_angle 147.69 wv_angle 115.38 GB_size/miGB_size/siGB_size    51.87     3.16   0.6325
