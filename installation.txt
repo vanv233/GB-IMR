@@ -1,7 +1,7 @@
 Installation instruction for Windows OS
 1. download Simply Fortran
 2. download all files in the folder Fortran_code
-3. open main.prj
+3. open Fortran_code\main.prj
 4. click Build Project
 5. click Launch Project
 6. see the screen output
