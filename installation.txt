@@ -1,0 +1,5 @@
+1. download Simply Fortran
+2. open main.f90
+3. click Build Project
+4. click Launch Project
+5. see the screen output
